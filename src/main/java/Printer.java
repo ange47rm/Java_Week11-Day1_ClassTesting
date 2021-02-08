@@ -13,7 +13,7 @@ public class Printer {
         if (this.sheets > (pages * copies)) {
         return this.sheets - (pages * copies);
     } else {
-            return null;
+//            return null;
         }
     }
 
